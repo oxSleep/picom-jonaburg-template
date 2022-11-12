@@ -24,8 +24,3 @@ Instructions for building `picom-jonaburg` on void linux using `xbps-src`:
 ❯ ./xbps-src pkg picom-jonaburg
 ❯ sudo xbps-install --repository=hostdir/binpkgs picom-jonaburg 
 ```
-
-**Note #1:** if you have `xtools` installed you can install the package by running `xi -f picom-ibhagwan` (instead of using `xbps-install`).
-
-**Note #2:** before installing the package make sure to remove all other `compton|picom` packages with `sudo xbps-remove picom compton`.
-
